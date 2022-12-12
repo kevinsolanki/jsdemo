@@ -1,0 +1,162 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;800&display=swap');
+*{
+    font-family: 'Poppins', sans-serif;
+    
+}
+
+body{
+    box-sizing: border-box;
+    height: 100%;
+    align-items: center;
+
+}
+.mainBody{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    /* align-items: center; */
+    margin: 30px;
+    
+    
+}
+.inputSection{
+    min-width: 25%;
+    max-width: 30%;
+    /* border: 2px dashed red; */
+}
+body > table{
+    width: 80%;
+}
+
+#myTable{
+    border-collapse: collapse;
+    width: 100%;
+    border-radius: 15px;
+}
+/* table.list{
+    width:100%;
+} */
+
+td, th {
+    border: 2px solid #000000;
+    text-align: center;
+    padding: 8px;
+}
+tr:nth-child(even),table.list thead>tr {
+    background-color: #cbc7c7;
+}
+
+/* input {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+} */
+
+button.delete{
+    width: fit-content;
+    background-color: #dd7973;
+    color: #000;
+    padding: 14px 20px;
+    margin: 10px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+button.submit{
+    width: fit-content;
+    background-color: #4681f4;
+    color: #000;
+    padding: 14px 20px;
+    margin: 10px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+#myInput{
+    width: 50%;
+    font-size: 16px;
+    
+    border: 1px solid #ddd;
+    margin-bottom: 12px;
+    padding: 10px;
+    border-radius: 50px;
+    background: rgb(44, 44, 44);
+    color: #ffffff;
+}
+.additional{
+    display: flex;
+    justify-content: space-between;
+}
+#sort{
+    width: 25%;
+    margin-bottom: 12px;
+    border-radius: 50px;
+    background: rgb(44, 44, 44);
+    color: #ffffff;
+
+}
+.gender-class{
+    display: flex;
+}
+#mainForm{
+    padding: 20px;
+    display: flex;
+    width:100%;
+    
+}
+.btns{
+    margin-top: 10px;
+    
+    
+}
+
+.hobbies{
+    display: flex;
+}
+
+.check-space{
+    margin-right: 10px;
+}
+#mainForm>div{
+    margin:4px
+}
+
+.displaySection{
+    /* border: 2px dashed red; */
+    min-width: 70%;
+    max-width: 75%;
+}
+#warningBox{
+    color:crimson;
+    font-weight: 800;
+}
+
+
+
+
+
+
+
+
+@media (max-width: 1170px) { 
+    .mainBody{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-around;
+        margin: 30px;
+        
+        
+    }
+    .inputSection{
+        min-width: 70%;
+        
+        /* border: 2px dashed red; */
+    }
+
+
+ }
